@@ -38,7 +38,7 @@ public class Player extends GameElement {
      */
     public Player(int x, int y, int width, int height, PlayerInputHandler inputHandler, Level level) {
         super(x, y, width, height);
-        this.speed = 7;
+        this.speed = 5;
         this.inputHandler = inputHandler;
         this.keyInput = this.inputHandler.keyInput();
         this.level = level;
